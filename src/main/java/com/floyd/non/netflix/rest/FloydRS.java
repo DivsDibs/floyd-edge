@@ -17,7 +17,7 @@ public class FloydRS {
 
 	@RequestMapping("/")
 	public String index() {
-		return "\"Hey You!!\" - David Gilmour";
+		return "\"Hey You!!\" - David Gilmour N Syd Barrett";
 	}
 
 	@RequestMapping(value = "/dark-side-of-the-moon", method = RequestMethod.GET)
